@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-inputFile = open("/usr/local/google/home/davjohns/git/advent-of-code-2024/input-day-1","r")
+inputFile = open("../input-day-1","r")
 
 locIDs = []
 for item in inputFile:
