@@ -20,3 +20,10 @@ distance = 0
 for i in range(len(locs1)):
     distance += abs((locs1[i] - locs2[i]))
 print(distance)
+
+# Part 2
+similarity = 0
+for loc in locs1:
+    similarity += (loc * locs2.count(loc))
+
+print(similarity)
